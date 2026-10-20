@@ -1,0 +1,2 @@
+booking_id,confirmed_at_utc,origin,destination,cargo_type,weight_tonnes,selected_route,estimated_cost_inr,estimated_transit_hours,is_real_booking
+7ec42e5e-ccd3-4c92-9d35-0a8b5cfdffc5,2026-10-20T04:30:09.533377+00:00,Samastipur,Mumbai,Cement,10,Option A · Cost-focused,22552,46.3,False

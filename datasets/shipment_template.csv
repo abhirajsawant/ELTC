@@ -1,0 +1,2 @@
+origin,destination,cargo_type,weight_tonnes,priority,wagon_preference
+Delhi,Mumbai,General goods,10,balanced,No preference

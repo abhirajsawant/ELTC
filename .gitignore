@@ -1,39 +1,40 @@
-
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
 .env
 .env.*
-
-# Allow an example environment file
 !.env.example
-
-# Testing and coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Node.js
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
 node_modules/
+frontend/node_modules/
 frontend/dist/
-frontend/.vite/
-
-# Editors and operating systems
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-__pycache__/
-*.py[cod]
-.pytest_cache/
+dist/
+build/
 .venv/
 venv/
-node_modules/
-dist/
-.env
+__pycache__/
+*.py[cod]
+# Tests are intentionally excluded from GitHub
+tests/
+test/
+**/tests/
+**/test_*.py
+**/*_test.py
+**/*.spec.js
+**/*.spec.jsx
+**/*.test.js
+**/*.test.jsx
+.coverage
+.pytest_cache/
+# Keep private/local datasets out of Git; commit only docs and template
+datasets/*
+!datasets/README.md
+!datasets/shipment_template.csv
+*.db
+*.sqlite3
+*.parquet
+*.xlsx
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
